@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "na_quantors"
-version = "1.0.0"
+version = "1.0.1"
 description = "na_quantors"
 readme = "README.rst"
 authors = [
