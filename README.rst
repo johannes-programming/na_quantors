@@ -5,7 +5,7 @@ na_quantors
 Overview
 --------
 
-The na_quantors project is a small collection of functions that check arguments for being na-values.
+The ``na_quantors`` project is a small collection of functions that check arguments for being na-values.
 
 Installation
 ------------
