@@ -10,7 +10,10 @@ authors = [
     { email = "johannes-programming@posteo.org", name = "Johannes" },
 ]
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
     "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
@@ -23,7 +26,7 @@ keywords = []
 name = "na_quantors"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.0.4"
+version = "1.0.4+local"
 
 [project.license]
 file = "LICENSE.txt"
@@ -31,4 +34,5 @@ file = "LICENSE.txt"
 [project.urls]
 Documentation = "https://pypi.org/project/na_quantors"
 Download = "https://pypi.org/project/na-quantors/#files"
+Index = "https://pypi.org/project/na_quantors/"
 Source = "https://github.com/johannes-programming/na_quantors"
