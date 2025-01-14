@@ -25,7 +25,7 @@ keywords = []
 name = "na_quantors"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.0.4+local.4"
+version = "1.0.5"
 
 [project.license]
 file = "LICENSE.txt"
