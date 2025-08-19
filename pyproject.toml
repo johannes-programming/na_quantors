@@ -1,12 +1,12 @@
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
-    "setuptools>=61.0.0",
+    "setuptools>=64.0",
 ]
 
 [project]
 authors = [
-    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes.programming@gmail.com", name = "Johannes" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -19,14 +19,14 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = [
-    "pandas>=2.1.2",
+    "pandas>=2.2,<3",
 ]
 description = "na_quantors"
 keywords = []
 name = "na_quantors"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.0.6"
+version = "1.0.7"
 
 [project.license]
 file = "LICENSE.txt"
