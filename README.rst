@@ -21,6 +21,12 @@ License
 
 This project is licensed under the MIT License.
 
+Links
+-----
+
+* `Download <https://pypi.org/project/na-quantors/#files>`_
+* `Source <https://github.com/johannes-programming/na_quantors>`_ 
+
 Credits
 -------
 - Author: Johannes
