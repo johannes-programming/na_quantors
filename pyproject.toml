@@ -21,12 +21,12 @@ classifiers = [
 dependencies = [
     "pandas>=2.2,<3",
 ]
-description = "na_quantors"
+description = "This project is a small collection of functions that check arguments for being na-values."
 keywords = []
 name = "na_quantors"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.0.7"
+version = "1.0.8"
 
 [project.license]
 file = "LICENSE.txt"
