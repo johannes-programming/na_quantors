@@ -8,6 +8,12 @@
                 <a>
                     na_quantors
                 </a>
+                <p>
+                    Minor Version:
+                    <select id="version">
+                        <option selected>1.0</option>
+                    </select>
+                </p>
             </dt>
             <dd>
                 <dl class="heading1">
@@ -34,7 +40,7 @@
                             All of the functions work by using
                             <code>pandas.isna</code>.
                         </p>
-                        <dl class="heading4">
+                        <dl class="heading4" version="1.0">
                             <dt>
                                 na_quantors.allisna(*values: Any) -> bool
                             </dt>
@@ -115,12 +121,12 @@
                                     is raised.
                                 </p>
                             </dd>
+                            <dt id="1--test">
+                                na_quantors.test() -> unittest.TextTestRunner
+                            </dt>
+                            <dd class="testingCorpus">
+                            </dd>
                         </dl>
-                    </dd>
-                    <dt id="testing">
-                        Testing
-                    </dt>
-                    <dd id="testingCorpus">
                     </dd>
                     <dt id="license">
                         License
