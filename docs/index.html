@@ -142,14 +142,20 @@
             </dd>
         </dl>
     </body>
-    <script src="https://www.johannes-programming.online/script.js">
-    </script>
-    <script>
-        setupLinksCorpus("na_quantors");
-        setupInstallCorpus("na_quantors");
-        setupTestingCorpus("na_quantors");
-        setupLicenseCorpus("na_quantors");
+    <script type="module">
+        import {
+            setupImpressumCorpus,
+            setupInstallCorpus,
+            setupLicenseCorpus,
+            setupLinksCorpus,
+            setupTestingCorpus,
+            addMetaAndLinkTags,
+        } from "https://www.johannes-programming.online/main.js";
         setupImpressumCorpus("na_quantors");
+        setupInstallCorpus("na_quantors");
+        setupLicenseCorpus("na_quantors");
+        setupLinksCorpus("na_quantors");
+        setupTestingCorpus("na_quantors");
         addMetaAndLinkTags();
     </script>
 </html>
