@@ -17,6 +17,11 @@ Open your terminal and run:
 
     pip install na_quantors
 
+Typing
+------
+
+The typing conforms strictly to ``mypy``.
+
 Features
 --------
 

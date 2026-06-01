@@ -1,6 +1,8 @@
-from typing import *
+import operator
+from functools import partial
+from typing import Any
 
-import pandas as pd
+import pandas as pd  # type: ignore[import-untyped]
 
 __all__ = [
     "allisna",
@@ -34,8 +36,8 @@ def anynotna(*values: Any) -> bool:
 
 def isna(*values: Any) -> bool:
     "This function determines if the values are NaN."
-    ans = {(pd.isna(x) is True) for x in values}
-    (ans,) = ans
+    ans: bool
+    (ans,) = set(map(partial(operator.is_, True), map(pd.isna, values)))
     return ans
 
 
