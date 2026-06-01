@@ -1,0 +1,81 @@
+Introduction
+------------
+
+This project is a small collection of functions that check arguments for being na-values.
+
+Installation
+------------
+
+To install na_quantors, you can use pip. Open your terminal and run:
+
+.. code-block:: shell
+
+    pip install na_quantors
+
+Features
+--------
+
+All of the functions work by using pandas.isna.
+
+``na_quantors.allisna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if all of the values passed to it are NaN.
+
+``na_quantors.allnotna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if all of the values passed to it are not NaN.
+
+``na_quantors.anyisna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if any of the values passed to it are NaN.
+
+``na_quantors.anynotna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if any of the values passed to it are not NaN.
+
+``na_quantors.isna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if the values passed to it are NaN. If some are and some are not then a ValueError is raised.
+
+``na_quantors.notna(*values: Any) -> bool``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function determines if the values passed to it are not NaN. If some are and some are not then a ValueError is raised.
+
+``na_quantors.test() -> unittest.TextTestRunner``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This project can be tested through its test function.
+
+.. code-block:: python
+
+    import na_quantors
+    na_quantors.test()
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+- Download: https://pypi.org/project/na_quantors/#files
+- Index: https://pypi.org/project/na_quantors/
+- Source: https://github.com/johannes-programming/na_quantors/
+- Website: https://na-quantors.johannes-programming.online/
+
+Impressum
+---------
+
+**Johannes Programming**
+
+- Name: Johannes
+- Email: johannes.programming@gmail.com
+- Homepage: https://www.johannes-programming.online/
+- Gravatar: https://www.johannes-programming.fyi/
