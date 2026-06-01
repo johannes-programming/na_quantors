@@ -6,7 +6,8 @@ This project is a small collection of functions that check arguments for being n
 Installation
 ------------
 
-To install na_quantors, you can use pip. Open your terminal and run:
+To install ``na_quantors``, you can use ``pip``. 
+Open your terminal and run:
 
 .. code-block:: shell
 
@@ -40,22 +41,24 @@ This function determines if any of the values passed to it are not NaN.
 ``na_quantors.isna(*values: Any) -> bool``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This function determines if the values passed to it are NaN. If some are and some are not then a ValueError is raised.
+This function determines if the values passed to it are NaN. 
+If some are and some are not then a ValueError is raised.
 
 ``na_quantors.notna(*values: Any) -> bool``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This function determines if the values passed to it are not NaN. If some are and some are not then a ValueError is raised.
+This function determines if the values passed to it are not NaN. 
+If some are and some are not then a ValueError is raised.
 
-``na_quantors.test() -> unittest.TextTestRunner``
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``na_quantors.tests.test() -> unittest.TextTestResult``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This project can be tested through its test function.
+This project can be tested through its ``test`` function.
 
 .. code-block:: python
 
-    import na_quantors
-    na_quantors.test()
+    import na_quantors.tests
+    na_quantors.tests.test()
 
 License
 -------
